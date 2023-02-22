@@ -1,0 +1,131 @@
+ALGORITHM nombre de caractère
+VAR
+    phrase=STRING
+    result=INTEGER
+    i=INTEGER
+
+BEGIN
+   
+    read (phrase)
+    count=0
+    result=0
+    WHILE (phrase[count]!="."  ) DO
+        
+        
+        IF (phrase[count]=" ") 
+        
+        THEN
+           
+            count=count+1
+       
+        ELSE
+            
+            count=count+1
+            
+            result=result+1
+        
+        END_IF
+    
+    END_WHILE
+
+    write (result)
+       
+END
+
+algo nombre de mot
+
+VAR
+    phrase=STRING
+    result=INTEGER
+    count=INTEGER
+
+BEGIN
+   
+    read (phrase)
+    count=0
+    result=1
+    WHILE (phrase[count]!="."  ) DO
+        
+        
+        IF (phrase[count]=" ") THEN
+            count=count+1
+            result=result+1
+        ELSE
+            i=i+1
+            
+        END_IF
+    
+    END_WHILE
+
+    write (result)
+
+
+
+       
+END
+
+algo nobre de voyelle
+
+VAR
+    phrase=STRING
+    result=INTEGER
+    y=INTEGER
+    voy=STRING:=aeyiuo 
+BEGIN
+   
+    read (phrase)
+    i=0
+    result=0
+  
+  
+FOR i in phrase  DO
+    FOR y in voy DO
+        if phrase[i]=voy[y] 
+            result=result+1
+
+END_FOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    phrase[i]=a Or phrase[i]=e
+    phrase[i]=y Or phrase[i]=i
+    phrase[i]=o Or phrase[i]=u
+
+
+        
+
+
+     
+    
+    END_WHILE
+
+    write (result)
+       
+END
+
+for i in phrase DO
+
+if phrase[i]
